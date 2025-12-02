@@ -11,6 +11,10 @@ to execute this program:
    source /opt/ros/jazzy/setup.bash THEN
    source YOUR MRTP DIRECTORY/MRTP/MRTP/install/setup.bash THEN 
    source WHEREVER YOU UNZIPPED THE FINAL PROJECT/finalProject/install/setup.bash
+   python script: ros2 launch human_detection human_detection_launch.py
+
+
+
 
 
 
