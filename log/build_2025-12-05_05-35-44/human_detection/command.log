@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/softwares/finalProject/build/human_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/softwares/finalProject/build/human_detection -- -j8 -l8
+Invoked command in '/home/ubuntu/softwares/finalProject/build/human_detection' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/softwares/finalProject/build/human_detection -- -j8 -l8

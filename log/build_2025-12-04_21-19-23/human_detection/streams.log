@@ -1,0 +1,31 @@
+[0.017s] Invoking command in '/home/ubuntu/softwares/finalProject/build/human_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/softwares/finalProject/build/human_detection -- -j8 -l8
+[0.366s] [ 50%] [32mBuilding CXX object CMakeFiles/human_detection_controller.dir/src/humanDetector.cpp.o[0m
+[2.169s] [01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> HumanDetectionController::[01;32m[KcalculateScanDifference[m[K(const sensor_msgs::msg::LaserScan&, const sensor_msgs::msg::LaserScan&)[m[K’:
+[2.169s] [01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:160:3:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[2.170s]   160 |   [01;36m[K{[m[K
+[2.170s]       |   [01;36m[K^[m[K
+[8.646s] [100%] [32m[1mLinking CXX executable human_detection_controller[0m
+[9.170s] [100%] Built target human_detection_controller
+[9.182s] Invoked command in '/home/ubuntu/softwares/finalProject/build/human_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/softwares/finalProject/build/human_detection -- -j8 -l8
+[9.196s] Invoking command in '/home/ubuntu/softwares/finalProject/build/human_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/softwares/finalProject/build/human_detection
+[9.202s] -- Install configuration: ""
+[9.208s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/lib/human_detection/human_detection_controller
+[9.211s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/softwares/finalProject/install/human_detection/lib/human_detection/human_detection_controller" to ""
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/launch
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/launch/human_detection_launch.py
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/package_run_dependencies/human_detection
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/parent_prefix_path/human_detection
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/ament_prefix_path.sh
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/ament_prefix_path.dsv
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/path.sh
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/path.dsv
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.bash
+[9.211s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.sh
+[9.212s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.zsh
+[9.212s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.dsv
+[9.212s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/package.dsv
+[9.212s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/packages/human_detection
+[9.213s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/cmake/human_detectionConfig.cmake
+[9.213s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/cmake/human_detectionConfig-version.cmake
+[9.213s] -- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/package.xml
+[9.214s] Invoked command in '/home/ubuntu/softwares/finalProject/build/human_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/softwares/finalProject/build/human_detection

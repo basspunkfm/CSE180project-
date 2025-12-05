@@ -1,0 +1,27 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/human_detection_controller.dir/src/humanDetector.cpp.o[0m
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> HumanDetectionController::[01;32m[KcalculateScanDifference[m[K(const sensor_msgs::msg::LaserScan&, const sensor_msgs::msg::LaserScan&)[m[K’:
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:169:3:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  169 |   [01;36m[K{[m[K
+      |   [01;36m[K^[m[K
+[100%] [32m[1mLinking CXX executable human_detection_controller[0m
+[100%] Built target human_detection_controller
+-- Install configuration: ""
+-- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/lib/human_detection/human_detection_controller
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/softwares/finalProject/install/human_detection/lib/human_detection/human_detection_controller" to ""
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/launch
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/launch/human_detection_launch.py
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/package_run_dependencies/human_detection
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/parent_prefix_path/human_detection
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/path.sh
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/path.dsv
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.bash
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.sh
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.zsh
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.dsv
+-- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/package.dsv
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/packages/human_detection
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/cmake/human_detectionConfig.cmake
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/cmake/human_detectionConfig-version.cmake
+-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/package.xml

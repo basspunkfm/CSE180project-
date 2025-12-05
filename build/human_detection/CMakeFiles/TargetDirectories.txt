@@ -1,0 +1,10 @@
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/uninstall.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/human_detection_uninstall.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/humanDetector.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/test.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/edit_cache.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/list_install_components.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/install.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/install/local.dir
+/home/ubuntu/softwares/finalProject/build/human_detection/CMakeFiles/install/strip.dir

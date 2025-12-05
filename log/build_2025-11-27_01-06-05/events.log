@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (human_detection) JobQueued: {'identifier': 'human_detection', 'dependencies': OrderedDict()}
+[0.000466] (human_detection) JobStarted: {'identifier': 'human_detection'}
+[0.011419] (human_detection) JobProgress: {'identifier': 'human_detection', 'progress': 'cmake'}
+[0.012507] (human_detection) JobProgress: {'identifier': 'human_detection', 'progress': 'build'}
+[0.012862] (human_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/softwares/finalProject/build/human_detection', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/softwares/finalProject/build/human_detection', 'env': OrderedDict({'VNCDESKTOP': '4068f1d80e44:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-238-4068f1d80e44-terminator-10_TIME6145146', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '4068f1d80e44', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/navigation/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-DZUimBrFmj,guid=5512649170ebc46fa664413c6927857d', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6065', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-D02VG3', 'COLCON_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/4068f1d80e44:@/tmp/.ICE-unix/67,unix/4068f1d80e44:/tmp/.ICE-unix/67', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libgcc_s.so.1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-D02VG3/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/talklisten:/home/ubuntu/softwares/MRTP/MRTP/install/navigation:/home/ubuntu/softwares/MRTP/MRTP/install/multipletopics:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/home/ubuntu/softwares/MRTP/MRTP/install/examples:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:a98355d6-deb5-431e-9361-c8dbdfa3e2c9', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/softwares/finalProject/build/human_detection', 'PYTHONPATH': '/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/talklisten:/home/ubuntu/softwares/MRTP/MRTP/install/navigation:/home/ubuntu/softwares/MRTP/MRTP/install/multipletopics:/home/ubuntu/softwares/MRTP/MRTP/install/examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[0.100681] (-) TimerEvent: {}
+[0.201073] (-) TimerEvent: {}
+[0.284364] (human_detection) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/human_detection_controller.dir/src/humanDetector.cpp.o\x1b[0m\n'}
+[0.301811] (-) TimerEvent: {}
+[0.403033] (-) TimerEvent: {}
+[0.503725] (-) TimerEvent: {}
+[0.605005] (-) TimerEvent: {}
+[0.705805] (-) TimerEvent: {}
+[0.806940] (-) TimerEvent: {}
+[0.907830] (-) TimerEvent: {}
+[1.008261] (-) TimerEvent: {}
+[1.108837] (-) TimerEvent: {}
+[1.209783] (-) TimerEvent: {}
+[1.311209] (-) TimerEvent: {}
+[1.411736] (-) TimerEvent: {}
+[1.513184] (-) TimerEvent: {}
+[1.614127] (-) TimerEvent: {}
+[1.715186] (-) TimerEvent: {}
+[1.815718] (-) TimerEvent: {}
+[1.917015] (-) TimerEvent: {}
+[2.017935] (-) TimerEvent: {}
+[2.119217] (-) TimerEvent: {}
+[2.219949] (-) TimerEvent: {}
+[2.321546] (-) TimerEvent: {}
+[2.422796] (-) TimerEvent: {}
+[2.523772] (-) TimerEvent: {}
+[2.624900] (-) TimerEvent: {}
+[2.725751] (-) TimerEvent: {}
+[2.826949] (-) TimerEvent: {}
+[2.927798] (-) TimerEvent: {}
+[3.028719] (-) TimerEvent: {}
+[3.129100] (-) TimerEvent: {}
+[3.230166] (-) TimerEvent: {}
+[3.331015] (-) TimerEvent: {}
+[3.431802] (-) TimerEvent: {}
+[3.533147] (-) TimerEvent: {}
+[3.633669] (-) TimerEvent: {}
+[3.735102] (-) TimerEvent: {}
+[3.836765] (-) TimerEvent: {}
+[3.937802] (-) TimerEvent: {}
+[4.038989] (-) TimerEvent: {}
+[4.145969] (-) TimerEvent: {}
+[4.247016] (-) TimerEvent: {}
+[4.347892] (-) TimerEvent: {}
+[4.449245] (-) TimerEvent: {}
+[4.551146] (-) TimerEvent: {}
+[4.651998] (-) TimerEvent: {}
+[4.753991] (-) TimerEvent: {}
+[4.855239] (-) TimerEvent: {}
+[4.956813] (-) TimerEvent: {}
+[5.057807] (-) TimerEvent: {}
+[5.159003] (-) TimerEvent: {}
+[5.259924] (-) TimerEvent: {}
+[5.360979] (-) TimerEvent: {}
+[5.463776] (-) TimerEvent: {}
+[5.565270] (-) TimerEvent: {}
+[5.667002] (-) TimerEvent: {}
+[5.767980] (-) TimerEvent: {}
+[5.868930] (-) TimerEvent: {}
+[5.969772] (-) TimerEvent: {}
+[6.070823] (-) TimerEvent: {}
+[6.171772] (-) TimerEvent: {}
+[6.273490] (-) TimerEvent: {}
+[6.374857] (-) TimerEvent: {}
+[6.477012] (-) TimerEvent: {}
+[6.577962] (-) TimerEvent: {}
+[6.678772] (-) TimerEvent: {}
+[6.780837] (-) TimerEvent: {}
+[6.882840] (-) TimerEvent: {}
+[6.984845] (-) TimerEvent: {}
+[7.087250] (-) TimerEvent: {}
+[7.188879] (-) TimerEvent: {}
+[7.291239] (-) TimerEvent: {}
+[7.398759] (-) TimerEvent: {}
+[7.501215] (-) TimerEvent: {}
+[7.601729] (-) TimerEvent: {}
+[7.702881] (-) TimerEvent: {}
+[7.803636] (-) TimerEvent: {}
+[7.904841] (-) TimerEvent: {}
+[8.008733] (-) TimerEvent: {}
+[8.115877] (-) TimerEvent: {}
+[8.217901] (-) TimerEvent: {}
+[8.319059] (-) TimerEvent: {}
+[8.419722] (-) TimerEvent: {}
+[8.520824] (-) TimerEvent: {}
+[8.621992] (-) TimerEvent: {}
+[8.723440] (-) TimerEvent: {}
+[8.824817] (-) TimerEvent: {}
+[8.926123] (-) TimerEvent: {}
+[9.027200] (-) TimerEvent: {}
+[9.127914] (-) TimerEvent: {}
+[9.229186] (-) TimerEvent: {}
+[9.329944] (-) TimerEvent: {}
+[9.431192] (-) TimerEvent: {}
+[9.532023] (-) TimerEvent: {}
+[9.632948] (-) TimerEvent: {}
+[9.734245] (-) TimerEvent: {}
+[9.835865] (-) TimerEvent: {}
+[9.937002] (-) TimerEvent: {}
+[10.038000] (-) TimerEvent: {}
+[10.138903] (-) TimerEvent: {}
+[10.239852] (-) TimerEvent: {}
+[10.340894] (-) TimerEvent: {}
+[10.442066] (-) TimerEvent: {}
+[10.542699] (-) TimerEvent: {}
+[10.644214] (-) TimerEvent: {}
+[10.744807] (-) TimerEvent: {}
+[10.846060] (-) TimerEvent: {}
+[10.946991] (-) TimerEvent: {}
+[11.047753] (-) TimerEvent: {}
+[11.148829] (-) TimerEvent: {}
+[11.250256] (-) TimerEvent: {}
+[11.351421] (-) TimerEvent: {}
+[11.453155] (-) TimerEvent: {}
+[11.554385] (-) TimerEvent: {}
+[11.655911] (-) TimerEvent: {}
+[11.757166] (-) TimerEvent: {}
+[11.858301] (-) TimerEvent: {}
+[11.959085] (-) TimerEvent: {}
+[12.059959] (-) TimerEvent: {}
+[12.160932] (-) TimerEvent: {}
+[12.262108] (-) TimerEvent: {}
+[12.363999] (-) TimerEvent: {}
+[12.464753] (-) TimerEvent: {}
+[12.565940] (-) TimerEvent: {}
+[12.666996] (-) TimerEvent: {}
+[12.767946] (-) TimerEvent: {}
+[12.868976] (-) TimerEvent: {}
+[12.970241] (-) TimerEvent: {}
+[13.070800] (-) TimerEvent: {}
+[13.172031] (-) TimerEvent: {}
+[13.272981] (-) TimerEvent: {}
+[13.373764] (-) TimerEvent: {}
+[13.430178] (human_detection) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable human_detection_controller\x1b[0m\n'}
+[13.474990] (-) TimerEvent: {}
+[13.575938] (-) TimerEvent: {}
+[13.676724] (-) TimerEvent: {}
+[13.777776] (-) TimerEvent: {}
+[13.879611] (-) TimerEvent: {}
+[13.949035] (human_detection) StdoutLine: {'line': b'[100%] Built target human_detection_controller\n'}
+[13.970414] (human_detection) CommandEnded: {'returncode': 0}
+[13.975039] (human_detection) JobProgress: {'identifier': 'human_detection', 'progress': 'install'}
+[13.980241] (-) TimerEvent: {}
+[13.985012] (human_detection) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/softwares/finalProject/build/human_detection'], 'cwd': '/home/ubuntu/softwares/finalProject/build/human_detection', 'env': OrderedDict({'VNCDESKTOP': '4068f1d80e44:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-238-4068f1d80e44-terminator-10_TIME6145146', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '4068f1d80e44', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/navigation/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-DZUimBrFmj,guid=5512649170ebc46fa664413c6927857d', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6065', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-D02VG3', 'COLCON_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/4068f1d80e44:@/tmp/.ICE-unix/67,unix/4068f1d80e44:/tmp/.ICE-unix/67', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libgcc_s.so.1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-D02VG3/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/talklisten:/home/ubuntu/softwares/MRTP/MRTP/install/navigation:/home/ubuntu/softwares/MRTP/MRTP/install/multipletopics:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/home/ubuntu/softwares/MRTP/MRTP/install/examples:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:a98355d6-deb5-431e-9361-c8dbdfa3e2c9', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/softwares/finalProject/build/human_detection', 'PYTHONPATH': '/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/talklisten:/home/ubuntu/softwares/MRTP/MRTP/install/navigation:/home/ubuntu/softwares/MRTP/MRTP/install/multipletopics:/home/ubuntu/softwares/MRTP/MRTP/install/examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[13.992134] (human_detection) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.994232] (human_detection) StdoutLine: {'line': b'-- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/lib/human_detection/human_detection_controller\n'}
+[14.014936] (human_detection) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/softwares/finalProject/install/human_detection/lib/human_detection/human_detection_controller" to ""\n'}
+[14.015571] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/launch\n'}
+[14.015792] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/launch/human_detection_launch.py\n'}
+[14.015942] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/package_run_dependencies/human_detection\n'}
+[14.016026] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/parent_prefix_path/human_detection\n'}
+[14.016111] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/ament_prefix_path.sh\n'}
+[14.016204] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/ament_prefix_path.dsv\n'}
+[14.016248] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/path.sh\n'}
+[14.016393] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/path.dsv\n'}
+[14.016438] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.bash\n'}
+[14.016469] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.sh\n'}
+[14.016493] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.zsh\n'}
+[14.016515] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.dsv\n'}
+[14.016538] (human_detection) StdoutLine: {'line': b'-- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/package.dsv\n'}
+[14.016820] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/packages/human_detection\n'}
+[14.017065] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/cmake/human_detectionConfig.cmake\n'}
+[14.017095] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/cmake/human_detectionConfig-version.cmake\n'}
+[14.017281] (human_detection) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/package.xml\n'}
+[14.018949] (human_detection) CommandEnded: {'returncode': 0}
+[14.040494] (human_detection) JobEnded: {'identifier': 'human_detection', 'rc': 0}
+[14.041261] (-) EventReactorShutdown: {}

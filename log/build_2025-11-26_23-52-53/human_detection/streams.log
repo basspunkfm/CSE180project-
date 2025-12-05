@@ -1,0 +1,63 @@
+[0.009s] Invoking command in '/home/ubuntu/softwares/finalProject/build/human_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/softwares/finalProject/src/human_detection -DCMAKE_INSTALL_PREFIX=/home/ubuntu/softwares/finalProject/install/human_detection
+[0.069s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.262s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.292s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.297s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.352s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.422s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.442s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.472s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.484s] -- Found nav2_msgs: 1.3.8 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[0.526s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.527s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.530s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.530s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.568s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.664s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.664s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.664s] -- Configured cppcheck include dirs: 
+[0.664s] -- Configured cppcheck exclude dirs and/or files: 
+[0.665s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.665s] -- Configured cpplint exclude dirs and/or files: 
+[0.665s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.670s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.670s] -- Added test 'lint_cmake' to check CMake code style
+[0.670s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.670s] -- Added test 'uncrustify' to check C / C++ code style
+[0.670s] -- Configured uncrustify additional arguments: 
+[0.670s] -- Added test 'xmllint' to check XML markup files
+[0.670s] -- Configuring done (0.6s)
+[0.712s] -- Generating done (0.0s)
+[0.722s] -- Build files have been written to: /home/ubuntu/softwares/finalProject/build/human_detection
+[0.730s] Invoked command in '/home/ubuntu/softwares/finalProject/build/human_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/softwares/finalProject/src/human_detection -DCMAKE_INSTALL_PREFIX=/home/ubuntu/softwares/finalProject/install/human_detection
+[0.730s] Invoking command in '/home/ubuntu/softwares/finalProject/build/human_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/softwares/finalProject/build/human_detection -- -j8 -l8
+[0.788s] [ 50%] [32mBuilding CXX object CMakeFiles/human_detection_controller.dir/src/humanDetector.cpp.o[0m
+[20.456s] [100%] [32m[1mLinking CXX executable human_detection_controller[0m
+[21.016s] [100%] Built target human_detection_controller
+[21.031s] Invoked command in '/home/ubuntu/softwares/finalProject/build/human_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/softwares/finalProject/build/human_detection -- -j8 -l8
+[21.047s] Invoking command in '/home/ubuntu/softwares/finalProject/build/human_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/softwares/finalProject/build/human_detection
+[21.055s] -- Install configuration: ""
+[21.056s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/lib/human_detection/human_detection_controller
+[21.064s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/softwares/finalProject/install/human_detection/lib/human_detection/human_detection_controller" to ""
+[21.065s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/launch
+[21.065s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/launch/human_detection_launch.py
+[21.066s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/package_run_dependencies/human_detection
+[21.066s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/parent_prefix_path/human_detection
+[21.067s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/ament_prefix_path.sh
+[21.067s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/ament_prefix_path.dsv
+[21.067s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/path.sh
+[21.068s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/environment/path.dsv
+[21.068s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.bash
+[21.068s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.sh
+[21.068s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.zsh
+[21.069s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/local_setup.dsv
+[21.069s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/package.dsv
+[21.069s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/ament_index/resource_index/packages/human_detection
+[21.069s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/cmake/human_detectionConfig.cmake
+[21.070s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/cmake/human_detectionConfig-version.cmake
+[21.070s] -- Installing: /home/ubuntu/softwares/finalProject/install/human_detection/share/human_detection/package.xml
+[21.073s] Invoked command in '/home/ubuntu/softwares/finalProject/build/human_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/softwares/finalProject/build/human_detection

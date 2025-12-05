@@ -1,0 +1,81 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/humanDetector.dir/src/humanDetector.cpp.o[0m
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:13:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ does not name a type
+   13 | using GoalHandleNavigateToPose = [01;31m[Krclcpp_action[m[K::ClientGoalHandle<NavigateToPose>;
+      |                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:39:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleNavigateToPose[m[K’ does not name a type
+  168 |   void navigationResultCallback(const [01;31m[KGoalHandleNavigateToPose[m[K::WrappedResult& result)
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:78:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  168 | onResultCallback(const GoalHandleNavigateToPose::WrappedResult[01;31m[K&[m[K result)
+      |                                                               [01;31m[K^[m[K
+
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  168 | onResultCallback[34m[K([m[Kconst GoalHandleNavigateToPose::WrappedResult[01;31m[K&[m[K result)
+      |                 [34m[K~[m[K                                             [01;31m[K^[m[K
+      |                                                               [32m[K)[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  168 | onResultCallback(const GoalHandleNavigateToPose::WrappedResult[01;31m[K&[m[K result)
+      |                                                               [01;31m[K^[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ does not name a type
+  168 | onResultCallback(const GoalHandleNavigateToPose::WrappedResult& [01;31m[Kresult[m[K)
+      |                                                                 [01;31m[K^~~~~~[m[K
+
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:445:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ does not name a type
+  445 |   [01;31m[Krclcpp_action[m[K::Client<NavigateToPose>::SharedPtr nav_client_;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:[m[K In constructor ‘[01m[KHumanDetectionController::[01;32m[KHumanDetectionController[m[K()[m[K’:
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_client_t[m[K’?
+   37 |     [01;31m[Knav_client_[m[K = rclcpp_action::create_client<NavigateToPose>(this, "navigate_to_pose");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Krmw_client_t[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:37:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ has not been declared
+   37 |     nav_client_ = [01;31m[Krclcpp_action[m[K::create_client<NavigateToPose>(this, "navigate_to_pose");
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:37:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   37 |    nav_client_ = rclcpp_action::create_client<NavigateToPose[01;31m[K>[m[K(this, "navigate_to_pose");
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:37:64:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   37 |  nav_client_ = rclcpp_action::create_client<NavigateToPose>([01;35m[Kthis[m[K, "navigate_to_pose");
+      |                                                             [01;35m[K^~~~[m[K
+
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:[m[K In member function ‘[01m[Kvoid HumanDetectionController::[01;32m[KnavigateToHuman[m[K(size_t)[m[K’:
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:147:10:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_client_t[m[K’?
+  147 |     if (![01;31m[Knav_client_[m[K->wait_for_action_server(std::chrono::seconds(5))) {
+      |          [01;31m[K^~~~~~~~~~~[m[K
+      |          [32m[Krmw_client_t[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:161:30:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ has not been declared
+  161 |     auto send_goal_options = [01;31m[Krclcpp_action[m[K::Client<NavigateToPose>::SendGoalOptions();
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:161:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  161 | uto send_goal_options = rclcpp_action::Client<NavigateToPose[01;31m[K>[m[K::SendGoalOptions();
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:161:69:[m[K [01;31m[Kerror: [m[K‘[01m[K::SendGoalOptions[m[K’ has not been declared; did you mean ‘[01m[Ksend_goal_options[m[K’?
+  161 |  send_goal_options = rclcpp_action::Client<NavigateToPose>::[01;31m[KSendGoalOptions[m[K();
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[Ksend_goal_options[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:165:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_client_t[m[K’?
+  165 |     [01;31m[Knav_client_[m[K->async_send_goal(goal_msg, send_goal_options);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Krmw_client_t[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:[m[K In member function ‘[01m[Kvoid HumanDetectionController::[01;32m[KnavigateToInvestigation[m[K(size_t)[m[K’:
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:386:30:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ has not been declared
+  386 |     auto send_goal_options = [01;31m[Krclcpp_action[m[K::Client<NavigateToPose>::SendGoalOptions();
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:386:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  386 | uto send_goal_options = rclcpp_action::Client<NavigateToPose[01;31m[K>[m[K::SendGoalOptions();
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:386:69:[m[K [01;31m[Kerror: [m[K‘[01m[K::SendGoalOptions[m[K’ has not been declared; did you mean ‘[01m[Ksend_goal_options[m[K’?
+  386 |  send_goal_options = rclcpp_action::Client<NavigateToPose>::[01;31m[KSendGoalOptions[m[K();
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[Ksend_goal_options[m[K
+[01m[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:390:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_client_t[m[K’?
+  390 |     [01;31m[Knav_client_[m[K->async_send_goal(goal_msg, send_goal_options);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Krmw_client_t[m[K
+gmake[2]: *** [CMakeFiles/humanDetector.dir/build.make:76: CMakeFiles/humanDetector.dir/src/humanDetector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/humanDetector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

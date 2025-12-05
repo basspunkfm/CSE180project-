@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (human_detection) JobQueued: {'identifier': 'human_detection', 'dependencies': OrderedDict()}
+[0.000131] (human_detection) JobStarted: {'identifier': 'human_detection'}
+[0.011287] (human_detection) JobProgress: {'identifier': 'human_detection', 'progress': 'cmake'}
+[0.012771] (human_detection) JobProgress: {'identifier': 'human_detection', 'progress': 'build'}
+[0.013163] (human_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/softwares/finalProject/build/human_detection', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/softwares/finalProject/build/human_detection', 'env': OrderedDict({'VNCDESKTOP': '4068f1d80e44:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-262-4068f1d80e44-terminator-12_TIME13232354', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '4068f1d80e44', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/navigation/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-qM8CrmCBiZ,guid=52538ec1eef3b117c9c311c669325d51', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5872', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-OBSZG3', 'COLCON_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/4068f1d80e44:@/tmp/.ICE-unix/69,unix/4068f1d80e44:/tmp/.ICE-unix/69', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libgcc_s.so.1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-OBSZG3/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/talklisten:/home/ubuntu/softwares/MRTP/MRTP/install/navigation:/home/ubuntu/softwares/MRTP/MRTP/install/multipletopics:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/home/ubuntu/softwares/MRTP/MRTP/install/examples:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:bd5b5916-2580-4d54-b21d-5eb21173ca08', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/softwares/finalProject/build/human_detection', 'PYTHONPATH': '/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/softwares/MRTP/MRTP/install/talklisten:/home/ubuntu/softwares/MRTP/MRTP/install/navigation:/home/ubuntu/softwares/MRTP/MRTP/install/multipletopics:/home/ubuntu/softwares/MRTP/MRTP/install/examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/softwares/MRTP/MRTP/install/gazeboenvs:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[0.100145] (-) TimerEvent: {}
+[0.201496] (-) TimerEvent: {}
+[0.248223] (human_detection) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/humanDetector.dir/src/humanDetector.cpp.o\x1b[0m\n'}
+[0.302292] (-) TimerEvent: {}
+[0.403525] (-) TimerEvent: {}
+[0.504166] (-) TimerEvent: {}
+[0.605847] (-) TimerEvent: {}
+[0.707396] (-) TimerEvent: {}
+[0.808119] (-) TimerEvent: {}
+[0.909112] (-) TimerEvent: {}
+[1.010203] (-) TimerEvent: {}
+[1.111340] (-) TimerEvent: {}
+[1.212491] (-) TimerEvent: {}
+[1.314132] (-) TimerEvent: {}
+[1.415091] (-) TimerEvent: {}
+[1.516328] (-) TimerEvent: {}
+[1.617084] (-) TimerEvent: {}
+[1.718161] (-) TimerEvent: {}
+[1.819427] (-) TimerEvent: {}
+[1.920234] (-) TimerEvent: {}
+[2.021419] (-) TimerEvent: {}
+[2.122115] (-) TimerEvent: {}
+[2.223091] (-) TimerEvent: {}
+[2.324139] (-) TimerEvent: {}
+[2.412074] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:13:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.413085] (human_detection) StderrLine: {'line': b'   13 | using GoalHandleNavigateToPose = \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ClientGoalHandle<NavigateToPose>;\n'}
+[2.413142] (human_detection) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.414856] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalHandleNavigateToPose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.414929] (human_detection) StderrLine: {'line': b'  168 |   void navigationResultCallback(const \x1b[01;31m\x1b[KGoalHandleNavigateToPose\x1b[m\x1b[K::WrappedResult& result)\n'}
+[2.414955] (human_detection) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.414994] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.415019] (human_detection) StderrLine: {'line': b'  168 | onResultCallback(const GoalHandleNavigateToPose::WrappedResult\x1b[01;31m\x1b[K&\x1b[m\x1b[K result)\n'}
+[2.415067] (human_detection) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.415091] (human_detection) StderrLine: {'line': b'\n'}
+[2.415114] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.415175] (human_detection) StderrLine: {'line': b'  168 | onResultCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst GoalHandleNavigateToPose::WrappedResult\x1b[01;31m\x1b[K&\x1b[m\x1b[K result)\n'}
+[2.415199] (human_detection) StderrLine: {'line': b'      |                 \x1b[34m\x1b[K~\x1b[m\x1b[K                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.415221] (human_detection) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.415611] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.415701] (human_detection) StderrLine: {'line': b'  168 | onResultCallback(const GoalHandleNavigateToPose::WrappedResult\x1b[01;31m\x1b[K&\x1b[m\x1b[K result)\n'}
+[2.415731] (human_detection) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.415756] (human_detection) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.416668] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:168:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.416716] (human_detection) StderrLine: {'line': b'  168 | onResultCallback(const GoalHandleNavigateToPose::WrappedResult& \x1b[01;31m\x1b[Kresult\x1b[m\x1b[K)\n'}
+[2.416740] (human_detection) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.416764] (human_detection) StderrLine: {'line': b'\n'}
+[2.425081] (-) TimerEvent: {}
+[2.458989] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:445:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.459109] (human_detection) StderrLine: {'line': b'  445 |   \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::Client<NavigateToPose>::SharedPtr nav_client_;\n'}
+[2.459148] (human_detection) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.472211] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KHumanDetectionController::\x1b[01;32m\x1b[KHumanDetectionController\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.472360] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:37:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_client_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.472392] (human_detection) StderrLine: {'line': b'   37 |     \x1b[01;31m\x1b[Knav_client_\x1b[m\x1b[K = rclcpp_action::create_client<NavigateToPose>(this, "navigate_to_pose");\n'}
+[2.472418] (human_detection) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.472441] (human_detection) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_client_t\x1b[m\x1b[K\n'}
+[2.472464] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:37:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.472518] (human_detection) StderrLine: {'line': b'   37 |     nav_client_ = \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::create_client<NavigateToPose>(this, "navigate_to_pose");\n'}
+[2.472546] (human_detection) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.472569] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:37:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.472592] (human_detection) StderrLine: {'line': b'   37 |    nav_client_ = rclcpp_action::create_client<NavigateToPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K(this, "navigate_to_pose");\n'}
+[2.472626] (human_detection) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.472656] (human_detection) StderrLine: {'line': b'\n'}
+[2.472679] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:37:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.472722] (human_detection) StderrLine: {'line': b'   37 |  nav_client_ = rclcpp_action::create_client<NavigateToPose>(\x1b[01;35m\x1b[Kthis\x1b[m\x1b[K, "navigate_to_pose");\n'}
+[2.472745] (human_detection) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.472785] (human_detection) StderrLine: {'line': b'\n'}
+[2.485245] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HumanDetectionController::\x1b[01;32m\x1b[KnavigateToHuman\x1b[m\x1b[K(size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.485331] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:147:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_client_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.485362] (human_detection) StderrLine: {'line': b'  147 |     if (!\x1b[01;31m\x1b[Knav_client_\x1b[m\x1b[K->wait_for_action_server(std::chrono::seconds(5))) {\n'}
+[2.485386] (human_detection) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.485409] (human_detection) StderrLine: {'line': b'      |          \x1b[32m\x1b[Krmw_client_t\x1b[m\x1b[K\n'}
+[2.485460] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:161:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.485493] (human_detection) StderrLine: {'line': b'  161 |     auto send_goal_options = \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::Client<NavigateToPose>::SendGoalOptions();\n'}
+[2.485516] (human_detection) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.485539] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:161:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.485562] (human_detection) StderrLine: {'line': b'  161 | uto send_goal_options = rclcpp_action::Client<NavigateToPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SendGoalOptions();\n'}
+[2.485584] (human_detection) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.485607] (human_detection) StderrLine: {'line': b'\n'}
+[2.489934] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:161:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::SendGoalOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksend_goal_options\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.490013] (human_detection) StderrLine: {'line': b'  161 |  send_goal_options = rclcpp_action::Client<NavigateToPose>::\x1b[01;31m\x1b[KSendGoalOptions\x1b[m\x1b[K();\n'}
+[2.490046] (human_detection) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.490071] (human_detection) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Ksend_goal_options\x1b[m\x1b[K\n'}
+[2.495093] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:165:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_client_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.495172] (human_detection) StderrLine: {'line': b'  165 |     \x1b[01;31m\x1b[Knav_client_\x1b[m\x1b[K->async_send_goal(goal_msg, send_goal_options);\n'}
+[2.495198] (human_detection) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.495229] (human_detection) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_client_t\x1b[m\x1b[K\n'}
+[2.496944] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HumanDetectionController::\x1b[01;32m\x1b[KnavigateToInvestigation\x1b[m\x1b[K(size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.496985] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:386:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.497014] (human_detection) StderrLine: {'line': b'  386 |     auto send_goal_options = \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::Client<NavigateToPose>::SendGoalOptions();\n'}
+[2.497046] (human_detection) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.497070] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:386:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.497093] (human_detection) StderrLine: {'line': b'  386 | uto send_goal_options = rclcpp_action::Client<NavigateToPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SendGoalOptions();\n'}
+[2.497115] (human_detection) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.497137] (human_detection) StderrLine: {'line': b'\n'}
+[2.501796] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:386:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::SendGoalOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksend_goal_options\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.501855] (human_detection) StderrLine: {'line': b'  386 |  send_goal_options = rclcpp_action::Client<NavigateToPose>::\x1b[01;31m\x1b[KSendGoalOptions\x1b[m\x1b[K();\n'}
+[2.501882] (human_detection) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.501904] (human_detection) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Ksend_goal_options\x1b[m\x1b[K\n'}
+[2.506112] (human_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/softwares/finalProject/src/human_detection/src/humanDetector.cpp:390:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_client_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.506321] (human_detection) StderrLine: {'line': b'  390 |     \x1b[01;31m\x1b[Knav_client_\x1b[m\x1b[K->async_send_goal(goal_msg, send_goal_options);\n'}
+[2.506351] (human_detection) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.506373] (human_detection) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_client_t\x1b[m\x1b[K\n'}
+[2.526178] (-) TimerEvent: {}
+[2.627495] (-) TimerEvent: {}
+[2.728573] (-) TimerEvent: {}
+[2.829194] (-) TimerEvent: {}
+[2.930233] (-) TimerEvent: {}
+[3.031857] (-) TimerEvent: {}
+[3.133104] (-) TimerEvent: {}
+[3.234163] (-) TimerEvent: {}
+[3.335108] (-) TimerEvent: {}
+[3.436108] (-) TimerEvent: {}
+[3.537594] (-) TimerEvent: {}
+[3.638123] (-) TimerEvent: {}
+[3.739922] (-) TimerEvent: {}
+[3.842281] (-) TimerEvent: {}
+[3.943256] (-) TimerEvent: {}
+[4.044216] (-) TimerEvent: {}
+[4.145393] (-) TimerEvent: {}
+[4.246152] (-) TimerEvent: {}
+[4.347406] (-) TimerEvent: {}
+[4.448094] (-) TimerEvent: {}
+[4.549077] (-) TimerEvent: {}
+[4.650251] (-) TimerEvent: {}
+[4.751521] (-) TimerEvent: {}
+[4.854438] (-) TimerEvent: {}
+[4.955250] (-) TimerEvent: {}
+[5.061824] (-) TimerEvent: {}
+[5.163145] (-) TimerEvent: {}
+[5.264109] (-) TimerEvent: {}
+[5.365269] (-) TimerEvent: {}
+[5.466217] (-) TimerEvent: {}
+[5.567160] (-) TimerEvent: {}
+[5.669747] (-) TimerEvent: {}
+[5.770770] (-) TimerEvent: {}
+[5.872597] (-) TimerEvent: {}
+[5.973367] (-) TimerEvent: {}
+[6.074255] (-) TimerEvent: {}
+[6.175567] (-) TimerEvent: {}
+[6.276700] (-) TimerEvent: {}
+[6.378149] (-) TimerEvent: {}
+[6.438577] (human_detection) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/humanDetector.dir/build.make:76: CMakeFiles/humanDetector.dir/src/humanDetector.cpp.o] Error 1\n'}
+[6.439534] (human_detection) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/humanDetector.dir/all] Error 2\n'}
+[6.439656] (human_detection) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.445943] (human_detection) CommandEnded: {'returncode': 2}
+[6.478512] (human_detection) JobEnded: {'identifier': 'human_detection', 'rc': 2}
+[6.479828] (-) TimerEvent: {}
+[6.479901] (-) EventReactorShutdown: {}
